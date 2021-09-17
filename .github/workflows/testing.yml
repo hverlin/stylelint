@@ -2,12 +2,7 @@ name: Testing
 
 on:
   push:
-    branches:
-      - main
-      - 'dependabot/**'
   pull_request:
-    branches:
-      - '**'
 
 env:
   FORCE_COLOR: 2
